@@ -6,8 +6,8 @@ import { Component ,OnInit} from '@angular/core';
   styleUrls: ['./current-date.component.css']
 })
 export class CurrentDateComponent implements OnInit {
-  currentTime:Date = new Date();  
-  color:"brown";
+  currentTime: Date = new Date();
+  color: 'brown';
   constructor() {}
 
   ngOnInit() {
